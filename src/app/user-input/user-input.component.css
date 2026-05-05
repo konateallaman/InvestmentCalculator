@@ -20,7 +20,7 @@ label {
   font-size: 0.75rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #A8A0BC;
+  color: #FFB088;
 }
 
 input {
@@ -35,15 +35,15 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #9B8EC4;
+  border-color: #FF8B4A;
 }
 
 button {
   width: 50%;
   padding: 0.5rem;
-  border: 1px solid #7C6FA0;
+  border: 1px solid #FF6B35;
   border-radius: 0.25rem;
-  background-color: #7C6FA0;
+  background-color: #FF6B35;
   color: #F0EEF5;
   font-size: 1rem;
   font-weight: bold;
@@ -54,5 +54,5 @@ button {
 }
 
 button:hover {
-  background-color: #9B8EC4;
+  background-color: #FF8B4A;
 }

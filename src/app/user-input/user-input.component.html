@@ -8,7 +8,6 @@
             <label for="annual-investment">Annual Investment</label>
             <input type="number" id="annual-investment" name="annual-investment" [(ngModel)]="enteredAnnualInvestment"/>
         </p>
-
     </div>
     <div class="input-group">
         <p>
@@ -19,9 +18,18 @@
             <label for="duration">Duration</label>
             <input type="number" id="duration" name="duration" [(ngModel)]="enteredDuration"/>
         </p>
-
     </div>
     <p>
-        <button >Calculate</button>
+        <button>Calculate</button>
     </p>
+
+    <div class="explanation">
+        <h3>How it works</h3>
+        <ul>
+            <li><strong>Initial Investment</strong> — the amount of money you start with (e.g. $5,000)</li>
+            <li><strong>Annual Investment</strong> — how much extra you add every year (e.g. $1,200)</li>
+            <li><strong>Expected Return</strong> — your annual interest rate as a percentage (e.g. 7%)</li>
+            <li><strong>Duration</strong> — how many years you want to calculate for (e.g. 10 years)</li>
+        </ul>
+    </div>
 </form>

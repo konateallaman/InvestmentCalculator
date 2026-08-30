@@ -8,7 +8,7 @@ import { Component, input} from '@angular/core';
   templateUrl: './investment-results.component.html',
   styleUrl: './investment-results.component.css'
 })
-export class _InvestmentResultsComponent {
+export class InvestmentResultsComponent {
   results=input<{
     year: number;
     interest: number;

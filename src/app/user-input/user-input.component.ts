@@ -1,6 +1,6 @@
 import { Component, output, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Data } from '@angular/router';
+import { _Data } from '@angular/router';
 import { InvestmentInput } from '../investment-input.model';
 
 @Component({
